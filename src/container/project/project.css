@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.project-wrapper {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 7rem;
+}
+
+.project-wrapper h1 {
+    font-size: 2rem;
+    color: var(--textcolor4);
+    margin-bottom: 2rem;
+    font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+
+   
+}
+
+/* Grid layout */
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+/* Project card styling */
+.project {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+    /* Animation settings */
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+    animation: fadeInSlideUp 0.6s ease forwards;
+}
+
+.project:nth-child(1) { animation-delay: 0.1s; }
+.project:nth-child(2) { animation-delay: 0.2s; }
+.project:nth-child(3) { animation-delay: 0.3s; }
+.project:nth-child(4) { animation-delay: 0.4s; }
+.project:nth-child(5) { animation-delay: 0.5s; }
+.project:nth-child(6) { animation-delay: 0.6s; }
+
+/* Overlay */
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Hover effects for project card */
+.project:hover {
+    transform: scale(1.05); /* Scale-up on hover */
+    transition: transform 0.3s ease;
+}
+
+.project:hover .project-overlay {
+    opacity: 1;
+}
+
+.project p {
+    font-size: var(--bigfont);
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    color:  var(--textcolor4);
+}
+
+/* Button styles */
+.project-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.project-buttons button {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    background-color: var(--textcolor2);
+    color: var(--textcolor3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.project-buttons button:hover {
+    background-color: var(--textcolor1);
+    color: var(--textcolor4);
+}
+
+/* Fade-in and slide-up animation */
+@keyframes fadeInSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Responsive design */
+@media screen and (min-width: px) {
+    .project-wrapper {
+        margin-top: 5rem;
+      
+    }
+  
+}
+
+@media screen and (max-width: 768px) {
+    .project-wrapper {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}

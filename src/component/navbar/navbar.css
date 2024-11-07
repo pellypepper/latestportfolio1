@@ -1,0 +1,129 @@
+:root {
+    --textcolor3: #222831; /* Dark color for text */
+    --bgcolor: linear-gradient(45deg, rgb(244, 239, 239) 50%, #222831 50%);
+
+    --mediumfont: 1rem; /* Font size for spans */
+}
+a{
+    text-decoration: none;
+}
+
+nav {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    width: 100%;
+    max-width: 60%; /* Max width for larger screens */
+    height: max-content;
+    position: fixed;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Center navigation */
+    align-items: center; /* Vertically center if needed */
+}
+
+nav ul {
+    width: 100%;
+    background: linear-gradient(to right, var(--textcolor3), transparent);
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid var(--textcolor3);
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: var(--textcolor2);
+    transition: transform 0.3s ease; /* Smooth transition for scale */
+    animation: fadeIn 1s ease-out; /* Fade in animation on page load */
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+li:active span {
+    color: var(--textcolor);
+    transition: color 0.2s ease;
+}
+
+span {
+    font-size: var(--mediumfont);
+    color: grey;
+    transition: color 0.2s ease;
+}
+
+/* Hover Effect Animation */
+li:hover .icon {
+    animation: bounce 0.5s ease-out; /* Apply the bounce effect when hovered */
+}
+
+/* Bouncing animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-5px); /* Move up */
+    }
+    50% {
+        transform: translateY(0); /* Move back to the original position */
+    }
+    70% {
+        transform: translateY(-3px); /* Move up slightly */
+    }
+    100% {
+        transform: translateY(0); /* Return to original position */
+    }
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        max-width: 80%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .icon {
+        font-size: 2rem; /* Increase icon size for mobile devices */
+    }
+}
+
+@media screen and (min-width: 769px) {
+    nav {
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .icon {
+        font-size: 2rem; /* Increase icon size for larger devices */
+    }
+}

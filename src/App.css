@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   width: 100%;
+   height: max-content;
+   background: var(--bgcolor);
+   position: relative;
+   
+   font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root{
+  --bgcolor: linear-gradient(45deg, rgb(244, 239, 239) 50%, black 50%);
+  --textcolor: #8000FF;
+  --textcolor1:  black ;
+  --textcolor2: #890b72 ;
+  --textcolor3: black ;
+  --textcolor4: white;
+  --bigfont: 1.5rem;
+  --mediumfont:  1rem;
+  --smallfont:  0.8rem;
+}
+
