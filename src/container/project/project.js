@@ -20,6 +20,12 @@ export default function Project() {
             web: "https://pellyonlinemarket.netlify.app",
             text: "An E-commerce website that sells products online",
             image: "assets/ecommerce.jpg"
+        },
+        {
+            github: "https://github.com/pellypepper/Estate",
+            web: "https://pellyestate.netlify.app",
+            text: "A Real Estate website that showcases properties for sale",
+            image: "assets/estate.jpg"
         }
     ];
 
