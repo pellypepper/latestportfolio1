@@ -27,6 +27,12 @@ export default function Project() {
             text: "A Real Estate website that showcases properties for sale",
             image: "assets/estate.jpg"
         }
+        {
+            github: "https://github.com/pellypepper/Django",
+            web: "http://pellysticky-35c9341f2838.herokuapp.com",
+            text: "A Notepad App using Django",
+            image: "assets/notepad.jpg"
+        }
     ];
 
     return (
