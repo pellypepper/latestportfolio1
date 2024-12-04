@@ -31,9 +31,10 @@ export default function Home() {
                         rel="noopener noreferrer" >
                           <FaGithub size={40}   />
                         </a>
+                        
                     </div>
                     <div className="download-btn">
-                        <a href="/assets/cv.docx" download>
+                        <a href="/assets/new.docx" download>
                             <button>Download CV</button>
                         </a>
                     </div>

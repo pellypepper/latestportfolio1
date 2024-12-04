@@ -32,6 +32,12 @@ export default function Project() {
             web: "http://pellysticky-35c9341f2838.herokuapp.com",
             text: "A Notepad App using Django",
             image: "assets/notepad.jpg"
+        },
+        {
+            github: "https://github.com/pellypepper/foodstuff-website",
+            web: "https://pellyfoodstuff.netlify.app",
+            text: "A Foodstuff website that allow user to cart and order foodstuff",
+            image: "assets/foodstuff.jpg"
         }
     ];
 
