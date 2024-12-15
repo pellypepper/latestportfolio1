@@ -1,6 +1,7 @@
 import React from "react";
 import { FaReact, FaGitAlt, FaJsSquare, FaPython, FaBootstrap, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiJquery, SiRedux } from "react-icons/si";
+import { SiJquery, SiRedux , SiExpress, SiPostgresql, SiNodedotjs } from "react-icons/si";
+
 import { FiFigma } from 'react-icons/fi';
 import "./skill.css"; // Optional: CSS for styling
 
@@ -9,10 +10,12 @@ export default function Skill() {
         <div className="skills">
             <h1>My Skills</h1>
             <div className="icon-grid">
-                <div className="skill-icon">
-                    <FaReact size={70} color="#61DBFB" />
-                    <p>React</p>
+   
+    <div className="skill-icon">
+    <SiNodedotjs size={70} title="Node.js" /> 
+                    <p>Node</p>
                 </div>
+              
                 <div className="skill-icon">
                     <FaJsSquare size={70} color="#F7DF1E" />
                     <p>JavaScript</p>
@@ -20,6 +23,20 @@ export default function Skill() {
                 <div className="skill-icon">
                     <FaPython size={70} color="#306998" />
                     <p>Python</p>
+                </div>
+                <div className="skill-icon">
+                    <FaReact size={70} color="#61DBFB" />
+                    <p>React</p>
+                </div>
+
+   <div className="skill-icon">
+   <SiExpress size={70} title="Express.js" /> 
+                    <p>Express</p>
+                </div>
+
+   <div className="skill-icon">
+   <SiPostgresql size={70} title="PostgreSQL" />
+                    <p>PostgreSQL</p>
                 </div>
                 <div className="skill-icon">
                     <FaBootstrap size={70} color="#7952B3" />

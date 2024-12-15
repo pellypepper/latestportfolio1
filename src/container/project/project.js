@@ -4,6 +4,17 @@ import "./project.css"; // Ensure this is where your CSS file is located
 export default function Project() {
     const projects = [
         {
+            web: "https://medmorestore.onrender.com/",
+            text: "A Real Life Project for a Foodstuff Website",
+            image: "assets/foodstuff.jpg"
+        },
+        {
+            github: "https://github.com/pellypepper/Estate",
+            web: "https://pellyestate.netlify.app",
+            text: "A Real Estate website that showcases properties for sale",
+            image: "assets/estate.jpg"
+        },
+        {
             github: "https://github.com/pellypepper/weather",
             web: "https://pellyweather.netlify.app",
             text: "Weather App using REST API",
@@ -21,24 +32,14 @@ export default function Project() {
             text: "An E-commerce website that sells products online",
             image: "assets/ecommerce.jpg"
         },
-        {
-            github: "https://github.com/pellypepper/Estate",
-            web: "https://pellyestate.netlify.app",
-            text: "A Real Estate website that showcases properties for sale",
-            image: "assets/estate.jpg"
-        },
+       
         {
             github: "https://github.com/pellypepper/Django",
             web: "http://pellysticky-35c9341f2838.herokuapp.com",
             text: "A Notepad App using Django",
             image: "assets/notepad.jpg"
-        },
-        {
-            github: "https://github.com/pellypepper/foodstuff-website",
-            web: "https://pellyfoodstuff.netlify.app",
-            text: "A Foodstuff website that allow user to cart and order foodstuff",
-            image: "assets/foodstuff.jpg"
         }
+      
     ];
 
     return (
