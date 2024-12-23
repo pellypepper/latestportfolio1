@@ -5,6 +5,7 @@ export default function Project() {
     const projects = [
          {
             web: "https://companyrotasoftware-3f6dcaa37799.herokuapp.com",
+            github: "https://github.com/pellypepper/Company-Management-Rota-Software",
             text: "A Real Life Project for a Company Rota System ",
             image: "assets/rota.jpg"
         },
