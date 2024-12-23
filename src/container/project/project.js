@@ -3,6 +3,11 @@ import "./project.css"; // Ensure this is where your CSS file is located
 
 export default function Project() {
     const projects = [
+         {
+            web: "https://companyrotasoftware-3f6dcaa37799.herokuapp.com",
+            text: "A Real Life Project for a Company Rota System ",
+            image: "assets/rota.jpg"
+        },
         {
             web: "https://medmorestore.onrender.com/",
             text: "A Real Life Project for a Foodstuff Website",
