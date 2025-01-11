@@ -21,6 +21,12 @@ export default function Project() {
             image: "assets/estate.jpg"
         },
         {
+            github: "https://github.com/pellypepper/oilrefinery",
+            web: "https://pellyrefinery.netlify.app",
+            text: "A `Real Life Project for an Oil Refinery Company",
+            image: "assets/oil.jpg"
+        },
+        {
             github: "https://github.com/pellypepper/weather",
             web: "https://pellyweather.netlify.app",
             text: "Weather App using REST API",
