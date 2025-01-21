@@ -1,5 +1,5 @@
 import React from "react";
-import "./project.css"; // Ensure this is where your CSS file is located
+import "./project.css";
 
 export default function Project() {
     const projects = [
