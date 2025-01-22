@@ -1,5 +1,8 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import "./project.css";
+
+// Lazy load individual project components
+const ProjectCard = lazy(() => import("./projectCard"));
 
 export default function Project() {
   const projects = [
@@ -64,26 +67,11 @@ export default function Project() {
     <main className="project-wrapper">
       <h1>My Recent Projects</h1>
       <section className="project-grid">
-        {projects.map((project, index) => (
-          <div key={index} className="project-card">
-            <div className="project-image" style={{ backgroundImage: `url(${project.image})` }}>
-              <div className="project-overlay">
-                <p>{project.text}</p>
-                <div className="project-buttons">
-                  <a href={project.web} target="_blank" rel="noopener noreferrer">
-                    <button>Live Demo</button>
-                  </a>
-                  <a href={project.github} target="_blank" rel="noopener noreferrer">
-                    <button>Code</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="project-details">
-              <h2>Tech Stack: <span>{project.stack}</span></h2>
-            </div>
-          </div>
-        ))}
+        <Suspense fallback={<div>Loading...</div>}>
+          {projects.map((project, index) => (
+            <ProjectCard key={index} project={project} />
+          ))}
+        </Suspense>
       </section>
     </main>
   );
