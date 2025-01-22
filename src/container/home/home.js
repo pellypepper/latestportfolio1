@@ -42,7 +42,7 @@ export default function Home() {
                 </section>
 
                 <section className="grid-2">
-          <img src="/assets/avatar.png" alt="avatar" />
+          <img src="/assets/avatar.webp" alt="avatar" />
         </section>
 
 
