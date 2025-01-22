@@ -25,7 +25,7 @@ export default function Project() {
     },
     {
       github: "https://github.com/pellypepper/oilrefinery",
-      web: "https://pellyrefinery.netlify.app",
+      web: "https://taimyroil.com",
       text: "A Real Life Project for an Oil Refinery Company",
       image: "assets/oil.jpg",
       stack: "React, Bootstrap, SEO, Google Analytics, Netlify"
