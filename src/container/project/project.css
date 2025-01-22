@@ -6,26 +6,93 @@
     margin-top: 7rem;
 }
 
+
 .project-wrapper h1 {
-    font-size: 2rem;
-    color: var(--textcolor4);
+    font-size: 2.5rem;
     margin-bottom: 2rem;
-    font-family: "Sour Gummy", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-
-
-   
-}
-
-/* Grid layout */
-.project-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-}
-
+    color: white;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-image {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+  }
+  
+  .project-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    color: #fff;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .project-card:hover .project-overlay {
+    opacity: 1;
+  }
+  
+  .project-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .project-buttons button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .project-details {
+    padding: 1rem;
+  }
+  
+  .project-details h2 {
+    font-size: 1.25rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .project-details span {
+    font-weight: normal;
+    font-style: italic;
+    color: #666;
+  }
 /* Project card styling */
 .project {
     position: relative;
@@ -77,34 +144,6 @@
     opacity: 1;
 }
 
-.project p {
-    font-size: var(--bigfont);
-    margin-bottom: 1rem;
-    line-height: 1.5rem;
-    color:  var(--textcolor4);
-}
-
-/* Button styles */
-.project-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-.project-buttons button {
-    padding: 10px 15px;
-    font-size: 0.9rem;
-    background-color: var(--textcolor2);
-    color: var(--textcolor3);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.project-buttons button:hover {
-    background-color: var(--textcolor1);
-    color: var(--textcolor4);
-}
 
 /* Fade-in and slide-up animation */
 @keyframes fadeInSlideUp {

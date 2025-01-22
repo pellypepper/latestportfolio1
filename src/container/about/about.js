@@ -9,10 +9,9 @@ export default function About() {
               
                 <section className="section-1">
                     <div className="section-1-box">
-                    <p>I am a driven and detail-oriented Web Developer with a strong foundation in Python, Node, JavaScript, React, HTML, CSS, Bootstrap, and Git. With a focus on clean, efficient code, I specialize in developing and deploying web applications. My passion for problem-solving fuels my desire to contribute technical expertise to a dynamic development team.
+                    <p>I am a highly motivated and meticulous Web Developer with a solid background in  Node, JavaScript, React, Redux, Python, Django, HTML, CSS, Bootstrap, and Git. I build and deploy web apps, with an emphasis on clean, efficient code. Being a problem solver by nature, my interest has always been to share some technical know-how with an agile development team.
 
-I have extensive experience working with web technologies and UI/UX design, consistently delivering high-quality work. Currently, I am available for freelance projects. If you have an idea you'd like to bring to life or need assistance with something specific, feel free to get in touch—I'd love to collaborate!</p>
-
+I'm well versed in web technologies and UI/UX design, and take great pride in the quality of my work. Now I am available for freelance writing. I am also open to full-time opportunities. I am a quick learner and a team player, and I am always looking for ways to improve my skills and knowledge.</p>
                     </div>
                                </section>
 
