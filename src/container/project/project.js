@@ -7,55 +7,55 @@ export default function Project() {
       web: "https://companyrotasoftware-3f6dcaa37799.herokuapp.com",
       github: "https://github.com/pellypepper/Company-Management-Rota-Software",
       text: "A Real Life Project for a Company Rota System",
-      image: "assets/rota.jpg",
+      image: "assets/rota.webp",
       stack: "React, Node.js, Express, Postgres, Bootstrap, Heroku"
     },
     {
       web: "https://medmorestore.onrender.com/",
       text: "A Real Life Project for a Foodstuff Website",
-      image: "assets/foodstuff.jpg",
+      image: "assets/foodstuff.webp",
       stack: "React, Node.js, Express, Postgres, Bootstrap, Render, Stripe"
     },
     {
       github: "https://github.com/pellypepper/Estate",
       web: "https://pellyestate.netlify.app",
       text: "A Real Estate website that showcases properties for sale",
-      image: "assets/estate.jpg",
+      image: "assets/estate.webp",
       stack: "React, Node.js, Express, Postgres, Bootstrap, Netlify"
     },
     {
       github: "https://github.com/pellypepper/oilrefinery",
       web: "https://taimyroil.com",
       text: "A Real Life Project for an Oil Refinery Company",
-      image: "assets/oil.jpg",
+      image: "assets/oil.webp",
       stack: "React, Bootstrap, SEO, Google Analytics, Netlify"
     },
     {
       github: "https://github.com/pellypepper/weather",
       web: "https://pellyweather.netlify.app",
       text: "Weather App using REST API",
-      image: "assets/weather.jpg",
+      image: "assets/weather.webp",
       stack: "React, Bootstrap, OpenAPI, Netlify"
     },
     {
       github: "https://github.com/pellypepper/appointment-app",
       web: "https://pellyappointment.netlify.app",
       text: "Appointment Planner that tracks user contacts and appointments",
-      image: "assets/appointment.jpg",
+      image: "assets/appointment.webp",
       stack: "React, Bootstrap, Netlify"
     },
     {
       github: "https://github.com/pellypepper/onlinemarket",
       web: "https://pellyonlinemarket.netlify.app",
       text: "An E-commerce website that sells products online",
-      image: "assets/ecommerce.jpg",
+      image: "assets/ecommerce.webp",
       stack: "React, Bootstrap, Netlify"
     },
     {
       github: "https://github.com/pellypepper/Django",
       web: "http://pellysticky-35c9341f2838.herokuapp.com",
       text: "A Notepad App using Django",
-      image: "assets/notepad.jpg",
+      image: "assets/notepad.webp",
       stack: "Python, Django, Heroku"
     }
   ];
