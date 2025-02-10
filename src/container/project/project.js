@@ -34,6 +34,13 @@ export default function Project() {
       stack: "React, Bootstrap, SEO, Google Analytics, Netlify"
     },
     {
+      github: "https://github.com/pellypepper/siawebsite",
+      web: "http://pellysia.netlify.app",
+      text: "A Security Agency website that showcases services in Uk",
+      image: "assets/sia.webp",
+      stack: "React, Bootstrap, Netlify"
+    },
+    {
       github: "https://github.com/pellypepper/weather",
       web: "https://pellyweather.netlify.app",
       text: "Weather App using REST API",
@@ -54,13 +61,7 @@ export default function Project() {
       image: "assets/ecommerce.webp",
       stack: "React, Bootstrap, Netlify"
     },
-    {
-      github: "https://github.com/pellypepper/Django",
-      web: "http://pellysticky-35c9341f2838.herokuapp.com",
-      text: "A Notepad App using Django",
-      image: "assets/notepad.webp",
-      stack: "Python, Django, Heroku"
-    }
+   
   ];
 
   return (
