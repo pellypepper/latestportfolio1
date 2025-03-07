@@ -1,12 +1,17 @@
 :root {
-    --textcolor3: #222831; /* Dark color for text */
+    --textcolor3: #222831; 
     --bgcolor: linear-gradient(45deg, rgb(244, 239, 239) 50%, #222831 50%);
 
-    --mediumfont: 1rem; /* Font size for spans */
+    --mediumfont: 1rem; 
 }
 a{
     text-decoration: none;
 }
+.active {
+    font-weight: bold;
+    color: #00f; 
+}
+
 
 nav {
     font-family: "Sour Gummy", sans-serif;
@@ -14,7 +19,7 @@ nav {
     font-weight: weight;
     font-style: normal;
     width: 100%;
-    max-width: 60%; /* Max width for larger screens */
+    max-width: 60%; 
     height: max-content;
     position: fixed;
     margin: auto;
@@ -22,8 +27,8 @@ nav {
     margin-bottom: 1rem;
     z-index: 1000;
     display: flex;
-    justify-content: center; /* Center navigation */
-    align-items: center; /* Vertically center if needed */
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
@@ -41,8 +46,8 @@ nav ul {
 .icon {
     font-size: 1.5rem;
     color: var(--textcolor2);
-    transition: transform 0.3s ease; /* Smooth transition for scale */
-    animation: fadeIn 1s ease-out; /* Fade in animation on page load */
+    transition: transform 0.3s ease;
+    animation: fadeIn 1s ease-out; 
 }
 
 li {
@@ -69,7 +74,7 @@ span {
 
 /* Hover Effect Animation */
 li:hover .icon {
-    animation: bounce 0.5s ease-out; /* Apply the bounce effect when hovered */
+    animation: bounce 0.5s ease-out; 
 }
 
 /* Bouncing animation */
@@ -78,16 +83,16 @@ li:hover .icon {
         transform: translateY(0);
     }
     30% {
-        transform: translateY(-5px); /* Move up */
+        transform: translateY(-5px);
     }
     50% {
-        transform: translateY(0); /* Move back to the original position */
+        transform: translateY(0);
     }
     70% {
-        transform: translateY(-3px); /* Move up slightly */
+        transform: translateY(-3px); 
     }
     100% {
-        transform: translateY(0); /* Return to original position */
+        transform: translateY(0); 
     }
 }
 
@@ -112,7 +117,7 @@ li:hover .icon {
     }
 
     .icon {
-        font-size: 2rem; /* Increase icon size for mobile devices */
+        font-size: 2rem; 
     }
 }
 
@@ -124,6 +129,6 @@ li:hover .icon {
     }
 
     .icon {
-        font-size: 2rem; /* Increase icon size for larger devices */
+        font-size: 2rem; 
     }
 }
