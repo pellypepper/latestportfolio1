@@ -1,28 +1,55 @@
-import React from "react";
-import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from "react-router-dom"
-import  { ROUTES } from "./component/navbar/navbar";
-import App from "./App"
-import Home from "./container/home/home";
-import About from "./container/about/about";
-import Skill from "./container/skills/skill";
-import Project from "./container/project/project";
+import React, { Suspense } from "react";
+import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route } from "react-router-dom";
+import { ROUTES } from "./component/navbar/navbar";
+import App from "./App";
+
+// Lazy load the components
+const Home = React.lazy(() => import("./container/home/home"));
+const About = React.lazy(() => import("./container/about/about"));
+const Skill = React.lazy(() => import("./container/skills/skill"));
+const Project = React.lazy(() => import("./container/project/project"));
 
 function Main() {
-  /* Add state variables and functions */
-  const router = createBrowserRouter(createRoutesFromElements(
-    <Route path="/" element={ <App/> }>
-      <Route path={ROUTES.Home} element={  <Home/>} /> 
-      <Route path={ROUTES.About} element={ <About />} /> 
-      <Route path={ROUTES.Skill} element={ <Skill />} /> 
-      <Route path={ROUTES.Project} element={ <Project/>} /> 
-      
-  
-    </Route>
-  ));
-  
-  return (
-    <RouterProvider router={router}/>
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<App />}>
+        <Route
+          path={ROUTES.Home}
+          element={
+            <Suspense fallback={<div>Loading Home...</div>}>
+              <Home />
+            </Suspense>
+          }
+        />
+        <Route
+          path={ROUTES.About}
+          element={
+            <Suspense fallback={<div>Loading About...</div>}>
+              <About />
+            </Suspense>
+          }
+        />
+        <Route
+          path={ROUTES.Skill}
+          element={
+            <Suspense fallback={<div>Loading Skill...</div>}>
+              <Skill />
+            </Suspense>
+          }
+        />
+        <Route
+          path={ROUTES.Project}
+          element={
+            <Suspense fallback={<div>Loading Project...</div>}>
+              <Project />
+            </Suspense>
+          }
+        />
+      </Route>
+    )
   );
+
+  return <RouterProvider router={router} />;
 }
 
 export default Main;
