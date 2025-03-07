@@ -19,6 +19,7 @@ export default function Navbar() {
                         to={ROUTES.Home} 
                         className={({ isActive }) => isActive ? "active" : ""} 
                         aria-current="page"
+                        id="active"
                     >
                         <FaHome size={24} className="icon" />
                         <span className="nav-text">Home</span>
@@ -28,6 +29,7 @@ export default function Navbar() {
                     <NavLink 
                         to={ROUTES.About} 
                         className={({ isActive }) => isActive ? "active" : ""}
+                             id="active"
                     >
                         <FaUserAlt size={24} className="icon" />
                         <span className="nav-text">About Me</span>
@@ -37,6 +39,7 @@ export default function Navbar() {
                     <NavLink 
                         to={ROUTES.Skill} 
                         className={({ isActive }) => isActive ? "active" : ""}
+                             id="active"
                     >
                         <FaTools size={24} className="icon" />
                         <span className="nav-text">Skills</span>
@@ -46,6 +49,7 @@ export default function Navbar() {
                     <NavLink 
                         to={ROUTES.Project} 
                         className={({ isActive }) => isActive ? "active" : ""}
+                             id="active"
                     >
                         <FaSuitcase size={24} className="icon" />
                         <span className="nav-text">Project</span>
