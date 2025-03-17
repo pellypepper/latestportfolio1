@@ -43,11 +43,12 @@ export default function Home() {
         </a>
     </div>
 
-    <div className="download-btn">
+    {/* <div className="download-btn">
         <a href="/assets/new.docx" download aria-label="Download CV">
             <button>Download CV</button>
         </a>
-    </div>
+        
+    </div> */}
 </section>
 
 
