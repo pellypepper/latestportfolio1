@@ -4,7 +4,6 @@
     text-align: center;
     padding: 2rem;
 
- 
     height: 100%;
 }
 
@@ -161,28 +160,36 @@
 }
 @media screen and (min-width: 768px) {
 
+.project-wrapper{
+ 
+
+  overflow-y: scroll;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: transparent transparent;
+ 
+ }
+ .project-wrapper::-webkit-scrollbar {
+     width: 0;
+     height: 0;
+ }
 
 }
-
-
 
 @media screen and (max-width: 768px) {
   .project-wrapper h1 {
     font-size: 35px;
   
   }
-  
-    .project-wrapper {
+  .project-wrapper{
+ 
+
     
-       overflow-y: scroll;
-       scrollbar-width: thin; /* For Firefox */
-       scrollbar-color: transparent transparent;
-      
-      }
-      .project-wrapper::-webkit-scrollbar {
-          width: 0;
-          height: 0;
-      }
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent;
+   
+   }
+    c
+  
       
     .project-grid {
         grid-template-columns: 1fr;
