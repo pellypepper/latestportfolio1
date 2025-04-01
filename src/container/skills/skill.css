@@ -1,13 +1,15 @@
 .skills {
-    padding: 2rem;
+
     text-align: center;
- 
+
+  height: 100%;
 }
 
 .skills h1 {
-    font-size: 2.5rem;
+  font-size: 40px;
+  margin-top: 2rem;
     margin-bottom: 2rem;
-    color: #333;
+    color: var(--textcolor4);
   }
   
   .icon-grid {

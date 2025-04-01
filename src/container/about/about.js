@@ -9,10 +9,14 @@ export default function About() {
               
                 <section className="section-1">
                     <div className="section-1-box">
-                    <p>I am a highly motivated and meticulous Web Developer with a solid background in  Node, JavaScript, React, Redux, Python, Django, HTML, CSS, Bootstrap, and Git. I build and deploy web apps, with an emphasis on clean, efficient code. Being a problem solver by nature, my interest has always been to share some technical know-how with an agile development team.
-
-I'm well versed in web technologies and UI/UX design, and take great pride in the quality of my work. Now I am available for freelance writing. I am also open to full-time opportunities. I am a quick learner and a team player, and I am always looking for ways to improve my skills and knowledge.</p>
-                    </div>
+                        <p>Hello, Im Pelumi Otegbola - a passionate Full Stack/Web Developer with over 2years experience.</p>
+                        <p>I specialize in Web Development and Software Engineering, where i createseamless, user-friendly experience and solving real-life problems.</p>
+                        <p>As a full stack developer, I manage both front-end and backend development which interest me to build high performance web apps with emphasis on clean, efficient code.</p>
+                        <p>I hold B.S.C in Computer Science from  Higher Institute of Science, Biology and Applied Economy where i was introduced  to few programming language.</p>
+                        <p>I started my career as a self taught developer  and i  further honed  my skills with bootcamp courses to stay upto date in the tech industry.</p>
+                        <p>I have work as a freelance developer for months ,building innovative web application for business to create customized strategies and state-of-the-art solutions that drive growth , streamline operations and expand digital presence.</p>
+                        <p>To learn more about me , Click the button to contact me </p>
+                         </div>
                                </section>
 
                 <section className="section-2">

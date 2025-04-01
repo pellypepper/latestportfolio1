@@ -1,16 +1,8 @@
-:root {
-    --textcolor3: #222831; 
-    --bgcolor: linear-gradient(45deg, rgb(244, 239, 239) 50%, #222831 50%);
 
-    --mediumfont: 1rem; 
-}
 a{
     text-decoration: none;
 }
-.active {
-    font-weight: bold;
-    color: #00f; 
-}
+
 
 
 nav {
@@ -33,14 +25,14 @@ nav {
 
 nav ul {
     width: 100%;
-    background: linear-gradient(to right, var(--textcolor3), transparent);
+    background:  var(--bgcolor2);
     border-radius: 50px;
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid var(--textcolor3);
+    border: 1px solid var(--textcolor2);
 }
 
 .icon {
@@ -74,10 +66,11 @@ li:active span {
     transition: color 0.2s ease;
 }
 
-span {
-    font-size: var(--mediumfont);
-    color: grey;
+li span {
+    font-size: 15px;
+    color: var(--textcolor4);
     transition: color 0.2s ease;
+    margin-top: .5rem;
 }
 
 /* Hover Effect Animation */

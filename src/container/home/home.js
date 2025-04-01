@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 export default function Home() {
 
     return (
-        <main>
+        <main className="home-main">
             <div className="home-grid">
             <section className="grid-1">
     <h1>Hi, I'm Pelumi <span>Otegbola</span></h1>
@@ -43,12 +43,12 @@ export default function Home() {
         </a>
     </div>
 
-    {/* <div className="download-btn">
+    <div className="download-btn">
         <a href="/assets/new.docx" download aria-label="Download CV">
             <button>Download CV</button>
         </a>
         
-    </div> */}
+    </div>
 </section>
 
 

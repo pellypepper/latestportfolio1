@@ -9,9 +9,14 @@ import {  Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <main>
+    <main className='t-section'>
+    <div className='navbar-section'>
+      
           <Navbar />
+    </div>
+          <div className='outlet-section'>
           <Outlet />
+          </div>
     </main>
   );
 }
