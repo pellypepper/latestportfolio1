@@ -156,18 +156,22 @@ button a{
  width: 100%;
 
     }
-  
+    main .about-wrapper {
+        grid-template-columns: 1fr;
+        line-height: 1.7rem;
+ 
+    }
 
     
 }
 @media screen and (min-width: 1024px) {
  
     .section-1-box{
-        line-height: 1.6rem;
+      
     }
     main .about-wrapper {
-        box-shadow: 0px 1px 1px 1px var(--textcolor2);
-    
+       
+    grid-template-columns: 1fr 1fr;
      
    
           
@@ -177,10 +181,17 @@ button a{
 
 
 @media screen and (max-width: 768px) {
+    .about-main {
+        
+
+         width: 100%;
+
+     
+     }
    
     main .about-wrapper {
         grid-template-columns: 1fr;
-     
+    line-height: 1.6rem;
  
     }
     .about-main {

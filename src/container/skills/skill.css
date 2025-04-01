@@ -1,3 +1,5 @@
+
+
 .skills {
 
     text-align: center;
@@ -6,7 +8,7 @@
 }
 
 .skills h1 {
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 2rem;
     margin-bottom: 2rem;
     color: var(--textcolor4);
@@ -20,25 +22,26 @@
   }
   
   .skill-icon {
-    background: #fff;
+    background: inherit;
+   
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ border: 1px solid var(--textcolor2);
     overflow: hidden;
     padding: 1rem;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    width: 150px;
+    width: 120px;
     text-align: center;
     cursor: pointer;
   }
   
   .skill-icon:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px white;
   }
   
   .skill-icon p {
     margin-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 17px;
     color: #333;
   }
   
@@ -96,6 +99,8 @@
     font-size: 1rem;
     color: grey;
 }
+
+
 @media screen and (min-width: 482px) {
     .skills {
         margin-top: 5rem;
@@ -111,6 +116,10 @@
         margin-top: 1rem;
         margin-bottom: 5rem;
     }
+    .loader-container p{
+      font-size: 25px;
+    }
+  
     .icon-grid {
         grid-template-columns: 1fr 1fr;
     }

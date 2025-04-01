@@ -2,6 +2,7 @@ import React from "react";
 import { FaInstagram, FaLinkedin} from "react-icons/fa"; 
 import "./home.css";
 import { FaGithub } from 'react-icons/fa';
+import { Typewriter } from 'react-simple-typewriter'
 
 export default function Home() {
 
@@ -10,7 +11,16 @@ export default function Home() {
             <div className="home-grid">
             <section className="grid-1">
     <h1>Hi, I'm Pelumi <span>Otegbola</span></h1>
-    <p>Full Stack Developer</p>
+    <p> <Typewriter
+            words={['Full Stack Developer']}
+            loop={false}
+            cursor
+            cursorStyle='|'
+            typeSpeed={120}
+            deleteSpeed={70}
+            delaySpeed={1000}
+          /></p>
+   
     <div className="icon-div">
         <a 
             className="icons" 
@@ -58,6 +68,13 @@ export default function Home() {
         </section>
 
 
+             
+
+
+            
+
+       
+             
 
             </div>
         </main>
