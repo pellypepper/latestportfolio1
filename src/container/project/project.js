@@ -7,6 +7,20 @@ const ProjectCard = lazy(() => import("./projectCard"));
 export default function Project() {
   const projects = [
     {
+      web: "https://thriftwebsite.fly.dev",
+      github: "https://github.com/pellypepper/thriftwebsite",
+      text: "A Thrift Website for Ecommerce",
+      image: "assets/rota.webp",
+      stack: "React,Redux, Node.js, Express, Postgres, Bootstrap"
+    },
+    {
+      web: "https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+law-blow&type=phone_number&app_absent=0",
+      github: "https://github.com/pellypepper/Whatsapp-Bot-Attendance-tracker",
+      text: "A WhatsApp Bot Attendance & Note Assitant",
+      image: "assets/rota.webp",
+      stack: "Javascript, Google App Script, Twillio, Google Sheet"
+    },
+    {
       web: "https://companyrotasoftware-3f6dcaa37799.herokuapp.com",
       github: "https://github.com/pellypepper/Company-Management-Rota-Software",
       text: "A Real Life Project for a Company Rota System",
