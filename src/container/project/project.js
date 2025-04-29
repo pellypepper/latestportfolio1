@@ -17,7 +17,7 @@ export default function Project() {
       web: "https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+law-blow&type=phone_number&app_absent=0",
       github: "https://github.com/pellypepper/Whatsapp-Bot-Attendance-tracker",
       text: "A WhatsApp Bot Attendance & Note Assitant",
-      image: "assets/rota.webp",
+      image: "assets/bot.webp",
       stack: "Javascript, Google App Script, Twillio, Google Sheet"
     },
     {
