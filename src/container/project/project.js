@@ -10,7 +10,7 @@ export default function Project() {
       web: "https://thriftwebsite.fly.dev",
       github: "https://github.com/pellypepper/thriftwebsite",
       text: "A Thrift Website for Ecommerce",
-      image: "assets/rota.webp",
+      image: "assets/thrift.webp",
       stack: "React,Redux, Node.js, Express, Postgres, Bootstrap"
     },
     {
