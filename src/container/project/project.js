@@ -61,20 +61,7 @@ export default function Project() {
       image: "assets/weather.webp",
       stack: "React, Bootstrap, OpenAPI, Netlify"
     },
-    {
-      github: "https://github.com/pellypepper/appointment-app",
-      web: "https://pellyappointment.netlify.app",
-      text: "Appointment Planner that tracks user contacts and appointments",
-      image: "assets/appointment.webp",
-      stack: "React, Bootstrap, Netlify"
-    },
-    {
-      github: "https://github.com/pellypepper/onlinemarket",
-      web: "https://pellyonlinemarket.netlify.app",
-      text: "An E-commerce website that sells products online",
-      image: "assets/ecommerce.webp",
-      stack: "React, Bootstrap, Netlify"
-    },
+   
    
   ];
 
