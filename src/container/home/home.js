@@ -54,7 +54,7 @@ export default function Home() {
     </div>
 
     <div className="download-btn">
-        <a href="/assets/new.docx" download aria-label="Download CV">
+        <a href="/assets/pelumi.pdf" download aria-label="Download CV">
             <button>Download CV</button>
         </a>
         

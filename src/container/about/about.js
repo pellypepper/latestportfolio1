@@ -9,7 +9,7 @@ export default function About() {
               
                 <section className="section-1">
                     <div className="section-1-box">
-                        <p>Hello, Im Pelumi Otegbola - a Full Stack/Web Developer , im originally from Nigeria but i based in England, Uk.</p>
+                        <p>Hello, Im Pelumi Otegbola - a Full Stack/Web Developer ,  i based in England, Uk.</p>
                         <p>I specialize in Web Development and Software Engineering, where i create seamless, user-friendly experience and solving real-life problems.</p>
                         <p>As a full stack developer, I manage both front-end and backend development which interest me to build high performance web apps with emphasis on clean, efficient code.</p>
                         <p>My journey in tech started with a bachelor degree in Computer Science where i was introduced  to few programming languages which has given me strong background in both hardware and software systems and  i  further honed  my skills with bootcamp courses to stay upto date in the tech industry .</p>
