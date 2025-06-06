@@ -21,7 +21,7 @@ export default function Project() {
       stack: "Javascript, Google App Script, Twillio, Google Sheet"
     },
     {
-      web: "https://companyrotasoftware-3f6dcaa37799.herokuapp.com",
+      web: "https://company-management-rota-software.fly.dev",
       github: "https://github.com/pellypepper/Company-Management-Rota-Software",
       text: "A Real Life Project for a Company Rota System",
       image: "assets/rota.webp",
