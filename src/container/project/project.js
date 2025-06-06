@@ -13,6 +13,13 @@ export default function Project() {
       image: "assets/thrift.webp",
       stack: "React,Redux, Node.js, Express, Postgres, Bootstrap"
     },
+      {
+      web: "https://ppeliance.infy.uk/",
+      github: "https://github.com/pellypepper/Country-profiler",
+      text: "A Map displaying all country information , profile, weather, news",
+      image: "assets/profiler.png",
+      stack: "Php, Javascript, Html, Css"
+    },
     {
       web: "https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+law-blow&type=phone_number&app_absent=0",
       github: "https://github.com/pellypepper/Whatsapp-Bot-Attendance-tracker",
