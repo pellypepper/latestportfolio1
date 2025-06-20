@@ -14,7 +14,7 @@ export default function Project() {
       stack: "React,Redux, Node.js, Express, Postgres, Bootstrap"
     },
       {
-      web: "https://ppeliance.infy.uk/",
+      web: "https://gazetteer.kesug.com/",
       github: "https://github.com/pellypepper/Country-profiler",
       text: "A Map displaying all country information , profile, weather, news",
       image: "assets/profiler.png",
