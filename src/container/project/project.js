@@ -6,6 +6,20 @@ const ProjectCard = lazy(() => import("./projectCard"));
 
 export default function Project() {
   const projects = [
+      {
+      web: "https://chat-app-frontend-eybx.vercel.app/public",
+      github: "https://github.com/pellypepper/chat-app",
+      text: "A Chat App",
+      image: "assets/chat.jpg",
+      stack: "Next.js, TypeScript, Express, Zustand, Tailwind, Drizzle, AWs, Supabase"
+    },
+       {
+      web: " https://pelumi.fwh.is/",
+      github: "https://github.com/pellypepper/company-directory",
+      text: "A Company Directory",
+      image: "assets/directory.jpg",
+      stack: "Php, Javascript,Bootstap, JQuery, Html, Css"
+    },
     {
       web: "https://thriftwebsite.fly.dev",
       github: "https://github.com/pellypepper/thriftwebsite",
@@ -18,7 +32,7 @@ export default function Project() {
       github: "https://github.com/pellypepper/Country-profiler",
       text: "A Map displaying all country information , profile, weather, news",
       image: "assets/profiler.png",
-      stack: "Php, Javascript, Html, Css"
+      stack: "Php, Javascript,Bootstap, JQuery, Html, Css"
     },
     {
       web: "https://api.whatsapp.com/send/?phone=%2B14155238886&text=join+law-blow&type=phone_number&app_absent=0",
